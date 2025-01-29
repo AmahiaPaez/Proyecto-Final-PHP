@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>DeskHero | Proyecto Final</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <a href="#" class="logo">DeskHero</a>
+            <input type="checkbox" name="menu" id="menu">
+            <label id="labelMenu" for="menu">
+                <img src="/imagenes/menu-btn.png" class="menu-icono" alt="Menu">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">servicios</a></li>
+                    <li><a href="#registarse">registrarse</a></li>
+                    <li><a href="#plan">Cambiar Plan</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container" id="inicio">
+            <div class="content">
+                <h1>Soporte Técnico al Instante</h1>
+                <p>En DeskHero, te ayudamos a resolver cualquier inconveniente técnico con rapidez y profesionalismo.
+                </p>
+            </div>
+            <img src="imagenes/portada.png" alt="portada principal">
+        </div>
+    </header>
+
+    <main class="servicios container" id="servicios">
+        <div class="wrapper">
+            <div class="box">
+                <div class="front-face">
+                    <div class="icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <span>Resolución de Problemas Técnicos</span>
+                </div>
+                <div class="back-face">
+                    <span>Resolución de Problemas Técnicos</span>
+                    <p>
+                        Desde errores de software hasta fallos de hardware, estamos aquí para ayudarte.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="front-face">
+                    <div class="icon">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    </div>
+                    <span>Asistencia Remota y Presencial</span>
+                </div>
+                <div class="back-face">
+                    <span>Asistencia Remota y Presencial</span>
+                    <p>Soluciones técnicas donde y cuando las necesites.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="front-face">
+                    <div class="icon">
+                        <i class="fa-regular fa-circle-check"></i>
+                    </div>
+                    <span>Mantenimiento Preventivo</span>
+                </div>
+                <div class="back-face">
+                    <span>Mantenimiento Preventivo </span>
+                    <p>Cuida tus equipos y sistemas para evitar problemas inesperados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="p container" id="nosotros">
+        <h2>Confía en Nosotros para Cuidar tu Tecnología</h2>
+        <div class="pp">
+            <img src="imagenes/about.png" alt="">
+            <div class="p1">
+                <h3></h3>
+                <p>Bienvenido a DeskHero nuestro equipo de soporte técnico. Estamos aquí para ayudarte a resolver
+                    problemas de hardware, software o
+                    conectividad con rapidez y soluciones personalizadas. Nuestro equipo profesional y amigable trabaja
+                    para mantener todo
+                    funcionando a la perfección, brindándote tranquilidad y confianza en tu tecnología</p>
+
+            </div>
+        </div>
+
+        <div class="pp">
+            <div class="p2">
+                <h3>Impulsa Tu Empresa con Tecnología a Tu Favor</h3>
+                <p>Nuestro plan para empresas ofrece soporte técnico especializado y soluciones personalizadas para
+                    garantizar que la
+                    tecnología sea una herramienta que impulse tu productividad. Con atención prioritaria y un enfoque
+                    preventivo,
+                    aseguramos que tu negocio nunca se detenga por problemas técnicos</p>
+            </div>
+            <div class="wrapper2">
+                <input type="radio" name="slider" id="tab-1">
+                <input type="radio" name="slider" id="tab-2" checked>
+                <input type="radio" name="slider" id="tab-3">
+                <div class="plan-header">
+                    <label for="tab-1" class="tab-1">Basico</label>
+                    <label for="tab-2" class="tab-2">Estandar</label>
+                    <label for="tab-3" class="tab-3">Premium</label>
+                    <div class="slider"></div>
+                </div>
+                <div class="card-area">
+                    <div class="cards">
+                        <div class="row row-1">
+                            <div class="price-details">
+                                <span class="price">190000</span>
+                                <p>Para Empresas pequeñas</p>
+                            </div>
+                            <ul class="features">
+                                <li><i class="fas fa-check"></i><span>Horas de soporte: Soporte de lunes a viernes, 9:00
+                                        a 18:00 (horario comercial)</span></li>
+                                <li><i class="fas fa-check"></i><span>Número de incidencias: Hasta 10 incidencias por
+                                        mes.</span></li>
+                                <li><i class="fas fa-check"></i><span>Canales de soporte: Soporte a través de correo
+                                        electrónico y formulario web.</span></li>
+                                <li><i class="fas fa-check"></i><span>Tipo de soporte: Asistencia remota para problemas
+                                        de software y configuración básica</span></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="price-details">
+                                <span class="price">245000</span>
+                                <p>Para Empresas medianas</p>
+                            </div>
+                            <ul class="features">
+                                <li><i class="fas fa-check"></i><span>Horas de soporte: Soporte de lunes a viernes, 8:00
+                                        a 20:00</span></li>
+                                <li><i class="fas fa-check"></i><span>Canales de soporte: Soporte por correo
+                                        electrónico, chat en vivo, y llamada telefónica.</span></li>
+                                <li><i class="fas fa-check"></i><span>Número de incidencias: Hasta 30 incidencias por
+                                        mes</span></li>
+                                <li><i class="fas fa-check"></i><span>Tipo de soporte: Soporte remoto para problemas de
+                                        software, hardware y redes con Monitoreo proactivo básico de sistemas
+                                        críticos</span></li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="price-details">
+                                <span class="price">49000</span>
+                                <p>Para empresas con infraestructura IT</p>
+                            </div>
+                            <ul class="features">
+                                <li><i class="fas fa-check"></i><span>Horas de soporte: Soporte 24/7, los 365 días del
+                                        año.</span></li>
+                                <li><i class="fas fa-check"></i><span>Número de incidencias: Incidencias ilimitadas o un
+                                        número muy alto de incidencias mensuales</span></li>
+                                <li><i class="fas fa-check"></i><span>Tipo de soporte: Soporte remoto y en sitio para
+                                        todos los problemas de software, hardware, redes y seguridad.
+                                        Diagnóstico y reparación avanzados con monitoreo proactivo avanzado de sistemas
+                                        críticos y alertas en tiempo real.</span></li>
+                                <li><i class="fas fa-check"></i><span>Reportes personalizados: Informes mensuales sobre
+                                        el estado de los sistemas y el rendimiento del soporte.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <button class="botonPlan"><a href="#registarse">Quiero el plan</a></button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <div class="containerF" id="registarse">
+        <span class="big-circle"></span>
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Ayuda Técnica Rápida y Eficiente con Nuestro equipo</h3>
+                <p class="text">No solo solucionamos problemas; estamos
+                    enfocados en mejorar tus operaciones diarias, proporcionando orientación proactiva y asegurando que
+                    siempre estés un
+                    paso adelante.
+                </p>
+
+                <div class="info">
+                    <div class="information">
+                        <p>Argentina, La Plata, Calle 1234</p>
+                    </div>
+                    <div class="information">
+                        <p>Soporte@HelpDesk.com</p>
+                    </div>
+                    <div class="information">
+                        <p>123-456-789</p>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <p>Síguenos en nuestras redes para estar al día con novedades y consejos útiles:</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+                <form action="" method="post" id="formu" autocomplete="off">
+                    <h3 class="title">Contáctanos</h3>
+                    <div class="frm">
+                        <div class="grupo">
+                            <input type="text" name="nombre" required>
+                            <span class="barra"></span>
+                            <label>Nombre</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="email" name="email" required>
+                            <span class="barra"></span>
+                            <label>Correo electrónico</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="tel" name="telefono" required>
+                            <span class="barra"></span>
+                            <label>Teléfono</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="text" name="departamento" required>
+                            <span class="barra"></span>
+                            <label>Departamento/Área</label>
+                        </div>
+                    </div>
+
+                    <h3 class="title">Servicio y Plan solicitado</h3>
+                    <div class="frm">
+                        <div class="grupo">
+                            <select name="tipoPlan" required>
+                                <option value="" disabled selected>Plan</option>
+                                <option value="Basico">Básico</option>
+                                <option value="Intermedio">Intermedio</option>
+                                <option value="Premium">Premium</option>
+                            </select>
+                            <span class="barra"></span>
+                        </div>
+                        <div class="grupo">
+                            <select name="tipoServicio" required>
+                                <option value="" disabled selected>Tipo </option>
+                                <option value="Tecnico">Tecnico</option>
+                                <option value="Administrativo">Administrativo</option>
+                                <option value="Software">Software</option>
+                                <option value="Hardware">Hardware</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                            <span class="barra"></span>
+                        </div>
+                    </div>
+                    <h3 class="title">Detalles del problema</h3>
+                    <div class="frm">
+                        <div class="grupo">
+                            <input type="te" name="descripcion" required>
+                            <span class="barra"></span>
+                            <label>Descripcion</label>
+                        </div>
+                        <div class="grupo">
+                            <select name="prioridad" required>
+                                <option value="" disabled selected>Prioridad</option>
+                                    <option value="Alta">Alta</option>
+                                    <option value="Media">Media</option>
+                                    <option value="Baja">Baja</option>
+                            </select>
+                            <span class="barra"></span>
+                        </div>
+                    </div>
+                    <button type="submit" name="register">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="info">
+                <form class="info-content" id="planEditar" method="post" action="editar.php">
+                    <div class="info-price">
+                        <h2>¿Deseas modificar tu plan?</h2>
+                        <p class="price">Introduce tu correo electrónico para actualizar tu plan.</p>
+                        <div class="grupo">
+                            <input type="email" name="email" required>
+                            <span class="barra"></span>
+                            <label>corre electronico</label>
+                        </div>
+                        <div class="grupo">
+                            <select name="tipoPlan" required>
+                                <option value="" disabled selected>Plan</option>
+                                <option value="Basico">Básico</option>
+                                <option value="Intermedio">Intermedio</option>
+                                <option value="Premium">Premium</option>
+                            </select>
+                            <span class="barra"></span>
+                        </div>
+                        <button type="submit">Actualizar</button>
+                    </div>
+                    <div class="info-txt">
+                        <h2>Siempre a tu Lado</h2>
+                        <p>Contáctanos o sigue explorando nuestros servicios; estamos aquí para ayudarte cuando más lo
+                            necesites.</p>
+                    </div>
+                </form>
+                <hr>
+                <div class="enlaces">
+                    <h3>DeskHero</h3>
+                    <div class="enlace">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#servicios">servicios</a></li>
+                        <li><a href="#registarse">registrarse</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <?php
+        include("registrar.php");
+    ?>
+</body>
+</html>
